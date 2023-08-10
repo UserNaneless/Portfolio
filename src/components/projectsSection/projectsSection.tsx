@@ -14,7 +14,8 @@ export default class Projects extends Component {
                         title: "Vision Agency",
                         stack: ["HTML", "React", "CSS",],
                         mainText: "Landing page with animations for the Vision Agency",
-                        githubLink: "https://github.com/UserNaneless/Portfolio/tree/main/site"
+                        githubLink: "https://github.com/UserNaneless/Portfolio/tree/main/site",
+                        liveLink: "https://vision-landing.vercel.app/"
                     }} />
 
                     <Project {...{
@@ -22,7 +23,8 @@ export default class Projects extends Component {
                         title: "Weather App",
                         stack: ["HTML", "React", "CSS", "REST API"],
                         mainText: "Weather App to practice using REST API. Your can fetch any weather by city name",
-                        githubLink: "https://github.com/UserNaneless/Portfolio/tree/main/site3"
+                        githubLink: "https://github.com/UserNaneless/Portfolio/tree/main/site3",
+                        liveLink: "https://weather-api-rho-one.vercel.app/"
                     }} />
 
                     <Project {...{
@@ -30,15 +32,17 @@ export default class Projects extends Component {
                         title: "Music Visualizer / Player with playlist",
                         stack: ["HTML", "React", "CSS", "REST API", "Next", "Web Audio API", "NodeJS", "Express"],
                         mainText: "Audio Visualizer working on NodeJS server. To play something write in playlist/video link from youtube and click on blue background. Fully functional playlist: queue clearing, looping, shuffling, drag and drop.",
-                        githubLink: "https://github.com/UserNaneless/Portfolio/tree/main/site4client"
+                        githubLink: "https://github.com/UserNaneless/Portfolio/tree/main/site4client",
+                        liveLink: "https://visualizer-eight.vercel.app/"
                     }} />
 
                     <Project {...{
                         img: "src/assets/site5.png",
-                        title: "Online Gaming/Streaming Platform",
+                        title: "Online Gaming/Streaming Platform Cyborg",
                         stack: ["HTML", "React", "CSS", "React-Router-Dom", "Prisma"],
                         mainText: "Cyberg is an online gaming shop with streaming capabilities. Profile, game details, top games, top streamers: everything you need is here! ",
-                        githubLink: "https://github.com/UserNaneless/Portfolio/tree/main/site5"
+                        githubLink: "https://github.com/UserNaneless/Portfolio/tree/main/site5",
+                        liveLink: "https://cyborg-shop.vercel.app/"
                     }} />
 
                     <Project {...{
