@@ -1,0 +1,51 @@
+.projectMain{
+    width: 65%;
+    background-color: var(--background);
+    color: var(--text);
+    padding: 20px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.projectPreview{
+    width: 80%;
+    height: auto;
+    border-radius: 7px;
+}
+
+.projectTitle{
+    white-space: nowrap;
+}
+
+.projectStack{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.projectText{
+    margin-top: 10px;
+    padding: 0 30px;
+    text-align: center;
+}
+
+
+@media screen and (max-device-width: 500px){
+
+    .projectPreview{
+        width: 100%;
+    }
+
+    .projectTitle{
+        font-size: 1.45rem;
+        width: 100%;
+        overflow-x: auto;
+        text-align: center;
+    }
+}

@@ -1,0 +1,16 @@
+.skillCaptionMain{
+    padding: 10px 20px;
+    background-color: var(--text);
+    color: var(--background);
+    border-radius: 7px;
+    width: fit-content;
+    transition: .3s all;
+    position: relative;
+    height: 39px;
+    white-space: nowrap;
+}
+
+.skillCaptionMain:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}

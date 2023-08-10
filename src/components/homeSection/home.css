@@ -1,0 +1,21 @@
+.homeMain{
+    padding: 20px;
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: var(--text);
+    background-color: var(--background);
+}
+
+.homeTitle{
+    text-align: center;
+}
+
+.homeText{
+    font-size: 1.5em;
+    text-align: center;
+}

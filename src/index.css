@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+    --text: #151414;
+    --background: #f3f2f2;
+    --primary: #454041;
+    --secondary: #e7e4e5;
+    --accent: #857a7d;
+}
+
+::selection {
+    background-color: var(--primary);
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    letter-spacing: 1.4px;
+    text-decoration: none;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.buttonMain {
+    width: fit-content;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 7px;
+    transition: all .2s;
+    background-color: var(--text);
+    color: var(--background);
+    border: 1px solid var(--background);
+}
+
+.buttonMain:hover {
+    cursor: pointer;
+    background-color: var(--background);
+    color: var(--text);
+    border: 1px solid var(--text);
+}
+
+.buttonMain a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+.inputMain {
+    width: 100%;
+    padding: 10px 20px;
+    color: var(--text);
+    border-radius: 7px;
+    border: 1px solid var(--text);
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 2.4em;
+}

@@ -1,0 +1,12 @@
+.footerMain{
+    height: 70px;
+    width: 100%;
+    background-color: var(--text);
+    color: var(--background);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}

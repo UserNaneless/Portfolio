@@ -1,0 +1,35 @@
+.headerMain{
+    padding: 0 30px;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    user-select: none;
+
+    background-color: var(--text);
+    color: var(--background);
+}
+
+.headerItem{
+    width: fit-content;
+    height: 100%;
+    line-height: 70px;
+    padding: 0 15px;
+
+    transition: all .3s;
+}
+
+.headerItem:hover{
+    cursor: pointer;
+    background-color: var(--secondary);
+    color: var(--text);
+}
+
+@media screen and (max-device-width: 500px){
+
+    .headerMain{
+        padding: 0;
+        overflow-x: auto;
+    }
+}
